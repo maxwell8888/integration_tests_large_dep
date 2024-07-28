@@ -1,0 +1,8 @@
+[package]
+name = "my_crate"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+chromiumoxide = { version = "0.6" }
+tokio = { version = "1.39", features = ["full", "test-util"] }
